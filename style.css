@@ -1,0 +1,13 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{background-color: lightgray;}
+.father{width: 50%; min-height: 50vh; margin: 25vh auto;  border-radius: 10px;background-color: rgba(0, 0, 0, 0.5);  }
+.inputFather{width: 100% ; text-align: center ; padding: 19px; margin: 0 0 ;}
+.inputFather input[type=text]{ text-decoration: none ; background: none ; border-style: none ; color: white ; border-bottom: 2px solid white ; 
+    border-left: 2px solid white ; border-bottom-left-radius: 10px ;padding:7px ; }
+.inputFather input:focus {outline: none;}
+.inputFather input[type=button]{text-decoration: none ; background: gray ;padding: 10px 10px ; border-style: none ; cursor: pointer ;color: white ;border:1px solid white ; border-radius: 4px ;}
+.weatherContentFather{ padding: 10px ; display: none; transition: 0.5s;}
+.weatherContentFather li{text-decoration: none ; list-style: none ; padding: 10px ; color: white ;}
+.weatherContentFather li.skyDesc{font-size: 13px;}
+.weatherContentFather li.temp{font-size: 26px;}
+.weatherContentFather li.humidity{padding-bottom: 0;}
