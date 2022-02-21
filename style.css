@@ -11,3 +11,14 @@ body{background-color: lightgray;}
 .weatherContentFather li.skyDesc{font-size: 13px;}
 .weatherContentFather li.temp{font-size: 26px;}
 .weatherContentFather li.humidity{padding-bottom: 0;}
+/* for tablet screen */
+@media screen and (max-width : 650px){
+    /* body{background-color : blue ;} */
+    .father{width: 80%;}
+}
+@media screen and (max-width : 408px){
+    .father{width: 100%;}
+    #cityInputContent{margin-bottom: 10px;}
+    /* #weatherButton{display: block;} */
+}
+/* end  for tablet screen */
